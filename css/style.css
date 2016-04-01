@@ -1,0 +1,359 @@
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	/* 	Typography Declarations */
+	color: #222;
+	font-size: 1em;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*
+*************************
+Navigation
+*************************
+*/
+.top-navigation {
+	font-size: 1em;
+	letter-spacing: 0.03em;
+	width: 100%;
+	z-index: 9999;
+}
+
+.top-navigation .content {
+	height: 3em;
+}
+
+.top-navigation ul {
+	list-style: none;
+	padding: 0;
+}
+
+.content {
+	padding: 0px 0.9375em;
+/* 	width: 60.625em; */
+	margin: 0 auto;
+}
+
+.links {
+	margin-top: 1.5em;
+}
+
+.links li {
+	padding-left: 1em;
+	padding-right: 1em;
+	display: inline-block;
+}
+
+.links a:hover {
+	color: #46373F;
+	cursor: pointer;
+}
+
+.top-navigation, .links a {
+	text-decoration: none;
+	color: #000;
+}
+
+.active a {
+	color: #f4d03f;
+	font-weight: 600;
+}
+
+
+/*
+*************************
+Body
+*************************
+*/
+
+.footer-section,
+.masthead-heading,
+.masthead-intro,
+.top-navigation {
+	text-align: center;
+}
+
+.masthead-intro {
+	/* 	Layout Declarations */
+	margin-bottom: 0.1em;
+	/* 	Topography Declarations */
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 2em;
+	text-shadow: 3px 3px 3px #E3CFBB;
+}
+
+.masthead-heading {
+	/* 	Layout Declarations */
+	margin-top: -0.2em;
+	/* 	Topography Declarations */
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-weight: bold;
+	font-size: 6em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	color: #f4d03f;
+	text-shadow: 3px 3px 3px #333;
+}
+
+.masthead {
+	background-image: url('http://www.josephwood.net/images/sustenpass-full.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 0 auto;
+	padding: 6em 0;
+	border-top: 1em solid #46373F;
+	background-size: cover;
+}
+
+.introduction-section p,
+.image-section p,
+.video-section p,
+.location-section p,
+.questions-section p,
+.footer-section p,
+.projects p,
+.post p {
+	/* 	Topography Declarations */
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+
+.questions-section h2 {
+	/* 	Topography Declarations */
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	/* 	Layout */
+	margin: 2em 0 1em 0;
+}
+
+section h1 {
+	margin-top: 2em;
+	color: #f4d03f;
+}
+
+.introduction-section,
+.image-section,
+.video-section,
+.location-section,
+.questions-section,
+.projects,
+.blog-content {
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+
+/*
+*************************
+Projects
+*************************
+*/
+
+.projects h2 {
+	/* 	Topography Declarations */
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	/* 	Layout */
+	margin: 2em 0 1em 0;
+}
+
+.nyt_thumb,
+.karma_thumb,
+.streetfighter_thumb,
+.listy_thumb {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-left: 6px solid #f4d03f;
+	box-shadow:0 0 20px rgba(0,0,0,0.1);
+}
+
+.nyt_img {
+	height: 65em; /* Original size 95em */
+}
+
+.nyt_hack {
+	max-width: 70em;
+	max-height: 65em;
+	margin: 3em auto;
+	background-size: cover;
+}
+
+/*
+*************************
+Blog
+*************************
+*/
+
+.read_more_btn {
+	  background-color: #46373F;
+	  padding: 5px 25px 5px 25px;
+	  -webkit-border-radius: 50px;
+	  -moz-border-radius: 50px;
+	  border-radius: 50px;
+	  color: #fff;
+	  font-size: 1em;
+	  font-weight: normal;
+	  text-decoration: none;
+	  -o-transition: .5s;
+	  -ms-transition: .5s;
+	  -moz-transition: .5s;
+	  -webkit-transition: .5s;
+	  transition: .5s;
+}
+
+.read_more_btn:hover {
+	  background-color: #f4d03f;
+	  padding: 5px 25px 5px 25px;
+	  -webkit-border-radius: 50px;
+	  -moz-border-radius: 50px;
+	  border-radius: 50px;
+	  color: #fff;
+	  font-size: 1em;
+	  font-weight: normal;
+	  text-decoration: none;
+	  -o-transition: .5s;
+	  -ms-transition: .5s;
+	  -moz-transition: .5s;
+	  -webkit-transition: .5s;
+	  transition: .5s;
+}
+
+.blog_post_date {
+  border-radius: 3px;
+  font-style: normal;
+  color: #999;
+  background-color: #efefef;
+  padding: 10px;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+.entry_date {
+	color: #999;
+	font-style: italic;
+	margin-top: 3em;
+}
+
+/*
+*************************
+Links
+*************************
+*/
+
+a {
+	text-decoration: none;
+	color: #f4d03f;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #46373F;
+}
+
+/*
+*************************
+Footer Section
+*************************
+*/
+
+.footer-section li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.footer-section a {
+	color: #f4d03f;
+}
+
+.footer-section a:hover {
+	color: #46373F;
+}
+
+.footer-section p {
+	color: white;
+}
+
+.footer-section {
+	background-color: #A1938E;
+	margin-top: 5em;
+	padding: 4em 0;
+}
+
+/*
+*************************
+Media Queries
+*************************
+*/
+
+
+@media only screen and (max-width: 500px) {
+	.masthead-heading {
+		font-size: 4em;
+	}
+	.masthead-intro {
+		font-size: 1.5em;
+	}
+	.masthead {
+		padding: 3em 0;
+	}
+	.footer-section p {
+		font-size: 0.875em;
+	}
+	.footer-section a {
+		font-size: 0.875em;
+	}
+	.introduction-section,
+	.location-section,
+	.questions-section,
+	.projects {
+		margin-left: 0.750em;
+		margin-right: 0.750em;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	.masthead {
+		background-image: url('http://www.josephwood.net/images/sustenpass-tablet.jpg');
+	}
+	.nyt_hack {
+		background: url('http://www.josephwood.net/images/nyt_hack_tablet.jpg') no-repeat;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.masthead {
+		background-image: url('http://www.josephwood.net/images/sustenpass-phone.jpg') no-repeat;
+	}
+	.nyt_hack {
+		background: url('http://www.josephwood.net/images/nyt_hack_phone.jpg') no-repeat;
+	}
+	.image-section {
+		width: 480px;
+	}
+	.video-section {
+		width: 480px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.image-section {
+		width: 375px;
+	}
+	.video-section {
+		width: 375px;
+	}
+}
