@@ -104,7 +104,7 @@ Body
 }
 
 .masthead {
-	background-image: url('http://www.josephwood.net/images/sustenpass-full.jpg');
+	background-image: url('https://github.com/MartinWoodj/MartinWoodj.github.io/blob/master/images/sustenpass-full.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	margin: 0 auto;
@@ -327,19 +327,19 @@ Media Queries
 
 @media only screen and (max-width: 768px) {
 	.masthead {
-		background-image: url('http://www.josephwood.net/images/sustenpass-tablet.jpg');
+		background-image: url('https://github.com/MartinWoodj/MartinWoodj.github.io/blob/master/images/sustenpass-tablet.jpg');
 	}
 	.nyt_hack {
-		background: url('http://www.josephwood.net/images/nyt_hack_tablet.jpg') no-repeat;
+		background: url('https://github.com/MartinWoodj/MartinWoodj.github.io/blob/master/images/nyt_hack_tablet.jpg') no-repeat;
 	}
 }
 
 @media only screen and (max-width: 480px) {
 	.masthead {
-		background-image: url('http://www.josephwood.net/images/sustenpass-phone.jpg') no-repeat;
+		background-image: url('https://github.com/MartinWoodj/MartinWoodj.github.io/blob/master/images/sustenpass-phone.jpg') no-repeat;
 	}
 	.nyt_hack {
-		background: url('http://www.josephwood.net/images/nyt_hack_phone.jpg') no-repeat;
+		background: url('https://github.com/MartinWoodj/MartinWoodj.github.io/blob/master/images/nyt_hack_phone.jpg') no-repeat;
 	}
 	.image-section {
 		width: 480px;
